@@ -1,0 +1,81 @@
+{
+	"name": "SourceDataset_09b",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "Churn.csv",
+				"container": "sncontainer"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "RowNumber",
+				"type": "String"
+			},
+			{
+				"name": "CustomerId",
+				"type": "String"
+			},
+			{
+				"name": "Surname",
+				"type": "String"
+			},
+			{
+				"name": "CreditScore",
+				"type": "String"
+			},
+			{
+				"name": "Geography",
+				"type": "String"
+			},
+			{
+				"name": "Gender",
+				"type": "String"
+			},
+			{
+				"name": "Age",
+				"type": "String"
+			},
+			{
+				"name": "Tenure",
+				"type": "String"
+			},
+			{
+				"name": "Balance",
+				"type": "String"
+			},
+			{
+				"name": "NumOfProducts",
+				"type": "String"
+			},
+			{
+				"name": "HasCrCard",
+				"type": "String"
+			},
+			{
+				"name": "IsActiveMember",
+				"type": "String"
+			},
+			{
+				"name": "EstimatedSalary",
+				"type": "String"
+			},
+			{
+				"name": "Exited",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

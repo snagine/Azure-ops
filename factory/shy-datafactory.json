@@ -1,0 +1,9 @@
+{
+	"name": "shy-datafactory",
+	"location": "westus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "daf3a23b-19d0-48c3-b7ec-96cc7a510d56",
+		"tenantId": "ffed3c2f-ccfc-48c8-807a-cb4a2345f799"
+	}
+}
