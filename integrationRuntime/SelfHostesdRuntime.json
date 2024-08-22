@@ -1,0 +1,7 @@
+{
+	"name": "SelfHostesdRuntime",
+	"properties": {
+		"type": "SelfHosted",
+		"description": "Connect RDS"
+	}
+}
